@@ -23,51 +23,25 @@
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css">
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
 
-	<script>document.getElementsByTagName("html")[0].className += " js";</script>
-  <link rel="stylesheet" href="./css/style.css">
 
 	<title>Hrishabh Pandey</title>
 
 	<style>
-		.card-block {
-			min-height: 500px;
-		}
-
-		#box::-webkit-scrollbar {
-			width: 0 !important
-		}
-
-		body::-webkit-scrollbar {
-			width: 0 !important
-		}
-
-		#box {
-			overflow-y: visible;
-			overflow-x: auto;
-			white-space: nowrap;
-			vertical-align: text-top;
-			padding: 0;
-			width: 100%;
-			clear: both;
-
-			border-spacing: 5px;
-		}
-
-		.intro-section {
-			display: table-cell;
-		}
-
 		section {
 			min-height: 800px;
 			/* border: 1px solid black; */
 		}
 
 		body {
-			background-image: url('./sample/samp7.jpg');
-			background-color: #523b7f;
+			background-image: url('./sample/samp5.jpg');
+			/* background-color: #523b7f; */
 			background-repeat: no-repeat;
 			background-attachment: fixed;
 			background-position: center center;
+		}
+
+		.contentBlock{
+			min-height: 200px;
 		}
 
 		.bgCmain{
@@ -93,15 +67,35 @@
 
 		.headSty {
 			position: fixed;
+			z-index: 10;
 			width: 100%;
 			background-color: #0fd18d;
+			color: black;
+			font-family: sans-serif;
 		}
+
+		.myDetail{
+			border-radius: 10px;
+			max-height: 1000px;
+		}
+
+		.contentBody{
+			border-radius: 10px;
+			min-height: 400px;
+			font-family: 'Times New Roman', Times, serif;
+			font-size: x-large;
+		}
+
+		.aboutStyle{
+			
+		}
+
 	</style>
 
 </head>
 
 <body>
-	<header class="headSty shadow-lg p-3">
+	<header class="headSty shadow p-3">
 		<nav class="navbar navbar-expand-lg navbar-light">
 			<a class="navbar-brand" href="#">Hrishabh Pandey</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -115,7 +109,7 @@
 						<a class="nav-link" href="#">Introduction</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Internships</a>
+						<a class="nav-link" href="#">Experience</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Projects</a>
@@ -130,181 +124,92 @@
 
 	<div>
 		<section>
-
+			<!-- empty -->
 		</section>
 		<section>
-			<div class="shadow bg-white into">
-				<div style="background-color: #0db57a; height: 300px;">
-
-				</div>
-				<div>
-
-				</div>
-
-			</div>
-		</section>
-		<section>
-			<div class="into">
-				<div style="background-color: #0db57a; height: 300px;">
-
-				</div>
-				<div>
-
-				</div>
-			</div>
-		</section>
-		<section>
-			<div class="into">
-				<div style="background-color: #0db57a; height: 300px;">
-
-				</div>
-				<div class="bg-white shadow p-3">
-					<section class="cd-h-timeline js-cd-h-timeline margin-bottom-md">
-						<div class="cd-h-timeline__container container">
-							<div class="cd-h-timeline__dates">
-								<div class="cd-h-timeline__line">
-									<ol>
-										<li><a href="#0" data-date="16/01/2014" class="cd-h-timeline__date cd-h-timeline__date--selected">16 Jan</a></li>
-										<li><a href="#0" data-date="28/02/2014" class="cd-h-timeline__date">28 Feb</a></li>
-										<li><a href="#0" data-date="20/04/2014" class="cd-h-timeline__date">20 Mar</a></li>
-										<li><a href="#0" data-date="20/05/2014" class="cd-h-timeline__date">20 May</a></li>
-										<li><a href="#0" data-date="09/07/2014" class="cd-h-timeline__date">09 Jul</a></li>
-										<li><a href="#0" data-date="30/08/2014" class="cd-h-timeline__date">30 Aug</a></li>
-										<li><a href="#0" data-date="15/09/2014" class="cd-h-timeline__date">15 Sep</a></li>
-										<li><a href="#0" data-date="01/11/2014" class="cd-h-timeline__date">01 Nov</a></li>
-										<li><a href="#0" data-date="10/12/2014" class="cd-h-timeline__date">10 Dec</a></li>
-										<li><a href="#0" data-date="19/01/2015" class="cd-h-timeline__date">29 Jan</a></li>
-										<li><a href="#0" data-date="03/03/2015" class="cd-h-timeline__date">3 Mar</a></li>
-									</ol>
-				
-									<span class="cd-h-timeline__filling-line" aria-hidden="true"></span>
-								</div>
-							</div>
-								
-							<ul>
-								<li><a href="#0" class="text-replace cd-h-timeline__navigation cd-h-timeline__navigation--prev cd-h-timeline__navigation--inactive">Prev</a></li>
-								<li><a href="#0" class="text-replace cd-h-timeline__navigation cd-h-timeline__navigation--next">Next</a></li>
-							</ul>
+			<div class="row m-2 p-2">
+				<div class="col-4 myDetail">
+					<div class="card bg-white m-2 shadow" style="width: auto">
+						<img class="card-img-top" src="./images/banner-image.jpg" alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">Hrishabh Pandey</h5>
+							<p class="card-text">Computer Science Under Grad. student from Indian Institute of Information Technology, Sri City . Ready to Go.</p>
 						</div>
-				
-						<div class="cd-h-timeline__events">
-							<ol>
-								<li class="cd-h-timeline__event cd-h-timeline__event--selected text-component">
-									<div class="cd-h-timeline__event-content container">
-										<h2 class="cd-h-timeline__event-title">Horizontal Timeline</h2>
-										<em class="cd-h-timeline__event-date">January 16th, 2014</em>
-										<p class="cd-h-timeline__event-description color-contrast-medium"> 
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
-										</p>
-									</div>
-								</li>
-				
-								<li class="cd-h-timeline__event text-component">
-									<div class="cd-h-timeline__event-content container">
-										<h2 class="cd-h-timeline__event-title">Event title here</h2>
-										<em class="cd-h-timeline__event-date">February 28th, 2014</em>
-										<p class="cd-h-timeline__event-description color-contrast-medium"> 
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
-										</p>
-									</div>
-								</li>
-				
-								<li class="cd-h-timeline__event text-component">
-									<div class="cd-h-timeline__event-content container">
-										<h2 class="cd-h-timeline__event-title">Event title here</h2>
-										<em class="cd-h-timeline__event-date">March 20th, 2014</em>
-										<p class="cd-h-timeline__event-description color-contrast-medium"> 
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
-										</p>
-									</div>
-								</li>
-				
-								<li class="cd-h-timeline__event text-component">
-									<div class="cd-h-timeline__event-content container">
-										<h2 class="cd-h-timeline__event-title">Event title here</h2>
-										<em class="cd-h-timeline__event-date">May 20th, 2014</em>
-										<p class="cd-h-timeline__event-description color-contrast-medium"> 
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
-										</p>
-									</div>
-								</li>
-				
-								<li class="cd-h-timeline__event text-component">
-									<div class="cd-h-timeline__event-content container">
-										<h2 class="cd-h-timeline__event-title">Event title here</h2>
-										<em class="cd-h-timeline__event-date">July 9th, 2014</em>
-										<p class="cd-h-timeline__event-description color-contrast-medium"> 
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
-										</p>
-									</div>
-								</li>
-				
-								<li class="cd-h-timeline__event text-component">
-									<div class="cd-h-timeline__event-content container">
-										<h2 class="cd-h-timeline__event-title">Event title here</h2>
-										<em class="cd-h-timeline__event-date">August 30th, 2014</em>
-										<p class="cd-h-timeline__event-description color-contrast-medium"> 
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
-										</p>
-									</div>
-								</li>
-				
-								<li class="cd-h-timeline__event text-component">
-									<div class="cd-h-timeline__event-content container">
-										<h2 class="cd-h-timeline__event-title">Event title here</h2>
-										<em class="cd-h-timeline__event-date">September 15th, 2014</em>
-										<p class="cd-h-timeline__event-description color-contrast-medium"> 
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
-										</p>
-									</div>
-								</li>
-				
-								<li class="cd-h-timeline__event text-component">
-									<div class="cd-h-timeline__event-content container">
-										<h2 class="cd-h-timeline__event-title">Event title here</h2>
-										<em class="cd-h-timeline__event-date">November 1st, 2014</em>
-										<p class="cd-h-timeline__event-description color-contrast-medium"> 
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
-										</p>
-									</div>
-								</li>
-				
-								<li class="cd-h-timeline__event text-component">
-									<div class="cd-h-timeline__event-content container">
-										<h2 class="cd-h-timeline__event-title">Event title here</h2>
-										<em class="cd-h-timeline__event-date">December 10th, 2014</em>
-										<p class="cd-h-timeline__event-description color-contrast-medium"> 
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
-										</p>
-									</div>
-								</li>
-				
-								<li class="cd-h-timeline__event text-component">
-									<div class="cd-h-timeline__event-content container">
-										<h2 class="cd-h-timeline__event-title">Event title here</h2>
-										<em class="cd-h-timeline__event-date">January 29th, 2015</em>
-										<p class="cd-h-timeline__event-description color-contrast-medium"> 
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
-										</p>
-									</div>
-								</li>
-				
-								<li class="cd-h-timeline__event text-component">
-									<div class="cd-h-timeline__event-content container">
-										<h2 class="cd-h-timeline__event-title">Event title here</h2>
-										<em class="cd-h-timeline__event-date">March 3rd, 2015</em>
-										<p class="cd-h-timeline__event-description color-contrast-medium"> 
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
-										</p>
-									</div>
-								</li>
-							</ol>
-						</div> <!-- .cd-h-timeline__events -->
-					</section>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">Primary Email: hrishabh2203@gmail.com</li>
+							<li class="list-group-item">Secondry Email: codehrs2203@gmail.com</li>
+							<li class="list-group-item">Contact Number: 6387756473</li>
+							<li class="list-group-item">
+								<a href="https://www.github.com/hrs2203">
+									<button class="btn btn-outline-success" style="width: 100%;">
+										Github
+									</button>
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="https://www.linkedin.com/in/hrishabh-pandey-052a0616b/">
+									<button class="btn btn-outline-success" style="width: 100%;">
+										LinkedIn
+									</button>
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="https://twitter.com/HrishabhPande13">
+									<button class="btn btn-outline-success" style="width: 100%;">
+										Twitter
+									</button>
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="#">
+									<button class="btn btn-outline-success" style="width: 100%;">
+										Download Resume
+									</button>
+								</a>
+							</li>							
+						</ul>
+					</div>
+
+				</div>
+				<div class='m2 pl-2 pr-2 col contentBody'>
+					<div class="bg-white p-5 m-2 mb-5 aboutStyle">
+						<h1>
+							About
+						</h1>
+						<hr>
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem temporibus beatae atque quod maiores enim commodi facilis ipsum placeat, porro at quibusdam quis recusandae veritatis sint voluptate odio itaque quo?
+
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem temporibus beatae atque quod maiores enim commodi facilis ipsum placeat, porro at quibusdam quis recusandae veritatis sint voluptate odio itaque quo?
+
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem temporibus beatae atque quod maiores enim commodi facilis ipsum placeat, porro at quibusdam quis recusandae veritatis sint voluptate odio itaque quo?
+					</div>
+					<div class="bg-white p-5 m-2 mb-5">
+						<h1>
+							Work Experience
+						</h1>
+						<hr>
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem temporibus beatae atque quod maiores enim commodi facilis ipsum placeat, porro at quibusdam quis recusandae veritatis sint voluptate odio itaque quo?
+
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem temporibus beatae atque quod maiores enim commodi facilis ipsum placeat, porro at quibusdam quis recusandae veritatis sint voluptate odio itaque quo?
+
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem temporibus beatae atque quod maiores enim commodi facilis ipsum placeat, porro at quibusdam quis recusandae veritatis sint voluptate odio itaque quo?
+					</div>
+					<div class="bg-white p-5 m-2 mb-5">
+						<h1>
+							Projects
+						</h1>
+						<hr>
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem temporibus beatae atque quod maiores enim commodi facilis ipsum placeat, porro at quibusdam quis recusandae veritatis sint voluptate odio itaque quo?
+
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem temporibus beatae atque quod maiores enim commodi facilis ipsum placeat, porro at quibusdam quis recusandae veritatis sint voluptate odio itaque quo?
+
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem temporibus beatae atque quod maiores enim commodi facilis ipsum placeat, porro at quibusdam quis recusandae veritatis sint voluptate odio itaque quo?
+					</div>
+				</div>
 
 			</div>
-	</div>
-	</section>
+
+		</section>
 
 
 
@@ -313,10 +218,6 @@
 
 
 	<script src="./js/loadData.js"></script>
-	<script src="./js/util.js"></script>
-  <script src="./js/swipe-content.js"></script>
-  <script src="./js/main.js"></script>
-
 </body>
 
 </html>
