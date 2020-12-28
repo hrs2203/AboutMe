@@ -1,0 +1,26 @@
+#navHead {
+    z-index: 0;
+    background-color: black;
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#mainBody {
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: aqua;
+    height: 1500px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
