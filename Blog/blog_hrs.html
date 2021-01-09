@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+	<meta name="generator" content="Hugo 0.79.0">
+	<title>Hrishabh</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+		crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900&amp;display=swap" rel="stylesheet">
+
+	<style>
+
+		.transition_class{
+			transition-duration: 0.5s;
+		}
+
+		.headings {
+			font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+			margin-bottom: .25rem;
+			font-size: 2.5rem;
+		}
+
+		.styleFont {
+			font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+		}
+
+		hr {
+			background-color: #888888;
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<div class="bg-dark">
+		<header class="container blog-header py-3">
+			<div class="nav-scroller py-1 mb-2">
+				<nav class="nav justify-content-end">
+					<a class="nav-link m-1 btn btn-outline-light" href="#BlogTopics">BlogTopics</a>
+					<a class="nav-link m-1 btn btn-outline-light" href="../index.html">HomePage</a>
+				</nav>
+			</div>
+		</header>
+	</div>
+
+	<main>
+
+		<div class="bg-dark text-white">
+			<section class="py-5 text-center container">
+		    <div class="row">
+		      <div class="col-lg-6 col-md-8 mx-auto">
+		        <h1 class="styleFont font-weight-light">Hrishabh's Blog</h1>
+		        <p class="lead text-muted">I write about things I read and try to keep myself upto date. Also this makes it easy to keep a track of my time.</p>
+		        <p>
+		          <a href="#" class="btn btn-primary my-2">Lorem Ipsem an jump off the roof.</a>
+		          <a href="#" class="btn btn-outline-light my-2">Lorem ipsem</a>
+		        </p>
+		      </div>
+		    </div>
+		  </section>
+	  </div>
+
+	  <div class="py-3 bg-light">
+
+	    <div class="container">
+
+	      <div id="BlogTopics" class="row row-cols-md-3 g-3">
+
+	        <div class="col-md-6">
+	          <div class="card" onmouseover="shadowCard(this)" onmouseout="unshadowCard(this)">
+	            <div class="card-body">
+	            	<h5 class="card-title">Card title</h5>
+	            	<hr>
+	              <p class="card-text">Lorem Ipsem and the quick brown fox jump off the roof. Lorem Ipsem and the quick brown fox jump off the roof.</p>
+	            </div>
+	          </div>
+	        </div>
+
+	        <div class="col-md-6">
+	          <div class="card" onmouseover="shadowCard(this)" onmouseout="unshadowCard(this)">
+	            <div class="card-body">
+	            	<h5 class="card-title">Card title</h5>
+	            	<hr>
+	              <p class="card-text">Lorem Ipsem and the quick brown fox jump off the roof. Lorem Ipsem and the quick brown fox jump off the roof.</p>
+	            </div>
+	          </div>
+	        </div>
+
+	        <div class="col-md-6">
+	          <div class="card" onmouseover="shadowCard(this)" onmouseout="unshadowCard(this)">
+	            <div class="card-body">
+	            	<h5 class="card-title">Card title</h5>
+	            	<hr>
+	              <p class="card-text">Lorem Ipsem and the quick brown fox jump off the roof. Lorem Ipsem and the quick brown fox jump off the roof.</p>
+	            </div>
+	          </div>
+	        </div>
+
+	        <div class="col-md-6">
+	          <div class="card" onmouseover="shadowCard(this)" onmouseout="unshadowCard(this)">
+	            <div class="card-body">
+	            	<h5 class="card-title">Card title</h5>
+	            	<hr>
+	              <p class="card-text">Lorem Ipsem and the quick brown fox jump off the roof. Lorem Ipsem and the quick brown fox jump off the roof.</p>
+	            </div>
+	          </div>
+	        </div>
+
+	        <div class="col-md-6">
+	          <div class="card" onmouseover="shadowCard(this)" onmouseout="unshadowCard(this)">
+	            <div class="card-body">
+	            	<h5 class="card-title">Card title</h5>
+	            	<hr>
+	              <p class="card-text">Lorem Ipsem and the quick brown fox jump off the roof. Lorem Ipsem and the quick brown fox jump off the roof.</p>
+	            </div>
+	          </div>
+	        </div>
+
+	      </div>
+	    </div>
+	  </div>
+
+
+	</main>
+
+	<footer class="container justify-content-center">
+		<hr>
+		<div class="nav-scroller py-1 mb-2">
+			<nav class="nav justify-content-center">
+				<a class="p-2 link-secondary" href="https://github.com/hrs2203/">Github</a>
+				<a class="p-2 link-secondary" href="https://www.linkedin.com/in/hrishabh-pandey-052a0616b/">LinkedIn</a>
+				<a class="p-2 link-secondary" href="https://twitter.com/HrishabhPande13">Twitter</a>
+			</nav>
+		</div>
+	</footer>
+
+	<script>
+
+		function shadowCard(x) {
+			x.className = 'card transition_class shadow';
+		}
+
+		function unshadowCard(x) {
+			x.className = 'card transition_class';
+		}
+
+	</script>
+
+</body>
+
+</html>
