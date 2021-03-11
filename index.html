@@ -19,11 +19,22 @@
 	<style>
 
 		body{
-			background-color: #f5f6f6;
+			/* background-color: #f5f6f6; */
+			background-color: #1d2021;
+			color: #d1cdc7;
+			
 		}
 
 		.transition_class{
 			transition-duration: 0.5s;
+		}
+
+		.darkBG{
+			background-color: #181a1b;
+		}
+
+		.darkText{
+			color: #d1cdc7;
 		}
 
 		.headings {
@@ -49,10 +60,10 @@
 		<header class="blog-header py-3">
 			<div class="nav-scroller py-1 mb-2">
 				<nav class="nav justify-content-end">
-					<a class="nav-link m-1 btn btn-light" href="./Blog/blog_hrs.html">Blog</a>
-					<a class="nav-link m-1 btn btn-light" href="#Experience">Experience</a>
-					<a class="nav-link m-1 btn btn-light" href="#Projects">Projects</a>
-					<a class="nav-link m-1 btn btn-light" href="#AboutMe">About</a>
+					<a class="nav-link m-1 btn btn-dark" href="./Blog/blog_hrs.html">Blog</a>
+					<a class="nav-link m-1 btn btn-dark" href="#Experience">Experience</a>
+					<a class="nav-link m-1 btn btn-dark" href="#Projects">Projects</a>
+					<a class="nav-link m-1 btn btn-dark" href="#AboutMe">About</a>
 				</nav>
 			</div>
 		</header>
@@ -60,10 +71,9 @@
 
 	<main class="container">
 		<div class="p-4 p-md-5 mb-4 text-white rounded img-fluid" style="background-image: url('./static/bg_img.jpg');">
-			<div class="col-md-6 px-0">
+			<div class="col-md-6 px-0 text-right">
 				<h1 class="styleFont display-4">Hrishabh Pandey</h1>
-				<p class="lead my-3 font-monospace">Code, Coffee, Anime.<br>CSE Undergrad currently working on his
-					skills and looking for new oppurtunities.</p>
+				<p class="lead my-3 font-monospace">CSE Undergrad currently working on his skills and looking for new oppurtunities.</p>
 				<p class="lead mb-0"><a href="#AboutMe" class="text-white fw-bold">Continue reading...</a></p>
 			</div>
 		</div>
@@ -76,9 +86,9 @@
 		<div class="row mb-2">
 			<div class="col">
 				<div onmouseover="shadowCard(this)" onmouseout="unshadowCard(this)"
-					class="row g-0 border rounded overflow-hidden flex-md-row mb-4  h-md-250 position-relative">
-					<div class="col p-4 d-flex flex-column position-static bg-white">
-						<h3 class="d-inline-block mb-2 text-primary">TopBrain.in</h3>
+					class="row g-0  rounded overflow-hidden flex-md-row mb-4  h-md-250 position-relative">
+					<div class="col p-4 d-flex flex-column position-static darkBG">
+						<h3 class="d-inline-block mb-2" style="color: #2194fd;">TopBrain.in</h3>
 						<div class="mb-1 text-muted">Full Stack Intern<br>Feb 2020 - Nov 2020</div>
 						<p class="card-text">
 							1. Developed REST API providing service for local businesses to expand there business.
@@ -97,9 +107,9 @@
 		<div class="row mb-2">
 			<div class="col-md-6">
 				<div onmouseover="shadowCard(this)" onmouseout="unshadowCard(this)"
-					class="row g-0 border rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
-					<div class="col p-4 d-flex flex-column position-static bg-white">
-						<h3 class="d-inline-block mb-2 text-success">Spell Check</h3>
+					class="row g-0  rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
+					<div class="col p-4 d-flex flex-column position-static darkBG">
+						<h3 class="d-inline-block mb-2 " style="color: #75e6b2">Spell Check</h3>
 						<div class="mb-1 text-muted">
 							June 2020 - Nov 2020 | <a class="link-secondary"
 								href="https://github.com/hrs2203/spell_checker">Github Link</a>
@@ -110,9 +120,9 @@
 			</div>
 			<div class="col-md-6">
 				<div onmouseover="shadowCard(this)" onmouseout="unshadowCard(this)"
-					class="row g-0 border rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
-					<div class="col p-4 d-flex flex-column position-static bg-white">
-						<h3 class="d-inline-block mb-2 text-success">Game Playing Agent</h3>
+					class="row g-0  rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
+					<div class="col p-4 d-flex flex-column position-static darkBG">
+						<h3 class="d-inline-block mb-2 " style="color: #75e6b2">Game Playing Agent</h3>
 						<div class="mb-1 text-muted">
 							March 2020 - April 2020 | <a class="link-secondary"
 								href="https://github.com/hrs2203/algorithmsHrs/blob/master/AI_2_S20180010064.ipynb">
@@ -125,9 +135,9 @@
 			</div>
 			<div class="col-md-6">
 				<div onmouseover="shadowCard(this)" onmouseout="unshadowCard(this)"
-					class="row g-0 border rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
-					<div class="col p-4 d-flex flex-column position-static bg-white">
-						<h3 class="d-inline-block mb-2 text-success">Kalariti</h3>
+					class="row g-0  rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
+					<div class="col p-4 d-flex flex-column position-static darkBG">
+						<h3 class="d-inline-block mb-2 " style="color: #75e6b2">Kalariti</h3>
 						<div class="mb-1 text-muted">
 							September 2020 - December 2020 | <a class="link-secondary"
 								href="https://github.com/hrs2203/soad_project_2020">Github Link</a>
@@ -139,9 +149,9 @@
 			</div>
 			<div class="col-md-6">
 				<div onmouseover="shadowCard(this)" onmouseout="unshadowCard(this)"
-					class="row g-0 border rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
-					<div class="col p-4 d-flex flex-column position-static bg-white">
-						<h3 class="d-inline-block mb-2 text-success">StopStocks </h3>
+					class="row g-0  rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
+					<div class="col p-4 d-flex flex-column position-static darkBG">
+						<h3 class="d-inline-block mb-2 " style="color: #75e6b2">StopStocks </h3>
 						<div class="mb-1 text-muted">
 							May 2020 - July 2020 | <a class="link-secondary"
 								href="https://github.com/hrs2203/stock_app">Github Link</a>
@@ -162,7 +172,7 @@
 					<p class="mt-4 font-monospace">I am a Web Developer located in India. I am a Computer Science and
 						Engineering Undergrad student at Indian Institute of Information Technology, Sri City. I am
 						looking for more oppurtunity to increase my skills.</p>
-					<table class="font-monospace table">
+					<table class="font-monospace table" style="color: azure; background-color: #282c2d;">
 						<tbody>
 							<tr>
 								<th>Email</th>
@@ -211,11 +221,11 @@
 	<script>
 
 		function shadowCard(x) {
-			x.className = 'row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow h-md-250 position-relative transition_class';
+			x.className = 'row g-0  rounded overflow-hidden flex-md-row mb-4 shadow h-md-250 position-relative transition_class';
 		}
 
 		function unshadowCard(x) {
-			x.className = 'row g-0 border rounded overflow-hidden flex-md-row mb-4  h-md-250 position-relative transition_class';
+			x.className = 'row g-0  rounded overflow-hidden flex-md-row mb-4  h-md-250 position-relative transition_class';
 		}
 
 	</script>
