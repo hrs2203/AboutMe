@@ -17,23 +17,22 @@
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900&amp;display=swap" rel="stylesheet">
 
 	<style>
-
-		body{
+		body {
 			/* background-color: #f5f6f6; */
 			background-color: #1d2021;
 			color: #d1cdc7;
-			
+
 		}
 
-		.transition_class{
+		.transition_class {
 			transition-duration: 0.5s;
 		}
 
-		.darkBG{
+		.darkBG {
 			background-color: #181a1b;
 		}
 
-		.darkText{
+		.darkText {
 			color: #d1cdc7;
 		}
 
@@ -50,6 +49,21 @@
 
 		hr {
 			background-color: #888888;
+		}
+
+		.text_justify {
+			text-align: justify;
+		}
+
+		.center_image {
+			height: 100%;
+			width: auto;
+			overflow: hidden;
+			padding: 20px;
+		}
+
+		.mt-50 {
+			margin-top: 50px;
 		}
 	</style>
 
@@ -70,11 +84,11 @@
 	</div>
 
 	<main class="container">
-		<div class="p-4 p-md-5 mb-4 text-white rounded img-fluid" style="background-image: url('./static/bg_img.jpg');">
+		<div class="p-4 p-md-5 mb-4 text-white rounded" style="background-image: url('./static/bg_img.png'); background-size: cover;
+		">
 			<div class="col-md-6 px-0 text-right">
 				<h1 class="styleFont display-4">Hrishabh Pandey</h1>
-				<p class="lead my-3 font-monospace">CSE Undergrad currently working on his skills and looking for new oppurtunities.</p>
-				<p class="lead mb-0"><a href="#AboutMe" class="text-white fw-bold">Continue reading...</a></p>
+				<p class="lead my-3 font-monospace">Exploring the web and myself.</p>
 			</div>
 		</div>
 
@@ -82,6 +96,20 @@
 		<div>
 			<h1 id="Experience" class="headings m-2">Experience</h1>
 			<hr>
+		</div>
+		<div class="row mb-2">
+			<div class="col">
+				<div onmouseover="shadowCard(this)" onmouseout="unshadowCard(this)"
+					class="row g-0  rounded overflow-hidden flex-md-row mb-4  h-md-250 position-relative">
+					<div class="col p-4 d-flex flex-column position-static darkBG">
+						<h3 class="d-inline-block mb-2" style="color: #2194fd;">DubDub.ai</h3>
+						<div class="mb-1 text-muted">Frontend Intern<br>Oct 2021 - Present</div>
+						<p class="card-text">
+							1. Part of Frontend Team responsible for providing seemless and easy to use interface.
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div class="row mb-2">
 			<div class="col">
@@ -111,10 +139,11 @@
 					<div class="col p-4 d-flex flex-column position-static darkBG">
 						<h3 class="d-inline-block mb-2 " style="color: #75e6b2">Semantic Similarity Comparison</h3>
 						<div class="mb-1 text-muted">
-							Jan 2021 - Present | <a class="link-secondary"
-								href="https://github.com/hrs2203/sent_sim_django">Github Link</a>
+							Jan 2021 - Present | <a class="link-secondary" href="https://github.com/hrs2203/sent_sim_django">Github
+								Link</a>
 						</div>
-						<p class="mb-auto">Comparison of semantic similarity between sentences using embeddings generated from SentBERT and Corpus Based Statistics.</p>
+						<p class="mb-auto">Comparison of semantic similarity between sentences using embeddings generated from
+							SentBERT and Corpus Based Statistics.</p>
 					</div>
 				</div>
 			</div>
@@ -124,8 +153,7 @@
 					<div class="col p-4 d-flex flex-column position-static darkBG">
 						<h3 class="d-inline-block mb-2 " style="color: #75e6b2">Spelling Check</h3>
 						<div class="mb-1 text-muted">
-							June 2020 - Nov 2020 | <a class="link-secondary"
-								href="https://github.com/hrs2203/spell_check">
+							June 2020 - Nov 2020 | <a class="link-secondary" href="https://github.com/hrs2203/spell_check">
 								Github Link </a>
 						</div>
 						<p class="mb-auto">Spelling check algorithm using Peter Norvig's Algorithm.</p>
@@ -152,10 +180,11 @@
 					<div class="col p-4 d-flex flex-column position-static darkBG">
 						<h3 class="d-inline-block mb-2 " style="color: #75e6b2">Morning Brew</h3>
 						<div class="mb-1 text-muted">
-							Jan 2021 - April 2021 | <a class="link-secondary"
-								href="https://github.com/hrs2203/news_web_app">Github Link</a>
+							Jan 2021 - April 2021 | <a class="link-secondary" href="https://github.com/hrs2203/news_web_app">Github
+								Link</a>
 						</div>
-						<p class="mb-auto">Morning Brew is a one stop news website serving its customers digestable short news personalized to there taste. As a backend service build on MERN Stack ( NodeJs, ExpressJs, MongoDB ).</p>
+						<p class="mb-auto">Morning Brew is a one stop news website serving its customers digestable short news
+							personalized to there taste. As a backend service build on MERN Stack ( NodeJs, ExpressJs, MongoDB ).</p>
 					</div>
 				</div>
 			</div>
@@ -166,12 +195,22 @@
 			<hr>
 			<div class="row mb-2">
 				<div class="col-md-6">
-					<h3 class="styleFont">I am Hrishabh Pandey.</h3>
-					<p class="mt-4 font-monospace">I am a Web Developer located in India. I am a Computer Science and
-						Engineering Undergrad student at Indian Institute of Information Technology, Sri City. I am
-						looking for more oppurtunity to increase my skills.</p>
+					<h3 class="styleFont">Hi</h3>
+					<p class="mt-4 font-monospace text_justify">I am a Computer Science Undergrad at IIIT, Sri City.<br>
+						- Things I like to eat: Any thing that mom makes<br>
+						- Love to watch Anime. What i watch depends on the mood<br>
+						- Tech Stack I'm confident in: NodeJs, ReactJs, Django.
+					</p>
 					<table class="font-monospace table" style="color: azure; background-color: #282c2d;">
 						<tbody>
+							<tr>
+								<th>Full Name</th>
+								<td>Hrishabh Pandey</td>
+							</tr>
+							<tr>
+								<th>Pronounced as</th>
+								<td>Rishabh, ( H is silent )<br>I didn't had a choice</td>
+							</tr>
 							<tr>
 								<th>Email</th>
 								<td>hrishabh2203@gmail.com</td>
@@ -184,8 +223,7 @@
 								<th>Links</th>
 								<td>
 									<a class="link-light" href="https://github.com/hrs2203/">GitHub</a>
-									| <a class="link-light"
-										href="https://www.linkedin.com/in/hrishabh-pandey-052a0616b/">
+									| <a class="link-light" href="https://www.linkedin.com/in/hrishabh-pandey-052a0616b/">
 										LinkedIn</a>
 								</td>
 							</tr>
@@ -197,8 +235,8 @@
 						</tbody>
 					</table>
 				</div>
-				<div class="col-md-6 justify-content-end">
-					<img src="./static/me.jpeg" class="mx-auto d-block img-fluid">
+				<div class="col-md-6">
+					<img src="./static/me.jpeg" class="mx-auto d-block center_image">
 				</div>
 			</div>
 		</div>
