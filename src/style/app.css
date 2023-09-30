@@ -1,0 +1,11 @@
+#parent-body {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.div-padder {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    padding: 2px;
+}
